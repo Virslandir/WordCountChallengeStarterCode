@@ -11,7 +11,7 @@ For the string processing purposes a StringProcessor class is used, or rather, t
 
 The UI component (the console in the current case) is also abstracted away by use of the IViewerEngine interface, and I have yet to test other UI possibilities, say, a WinForms or maybe a Razor Pages variation, to see how easy it actually is to replace the UI with this interface.
 
-Additionally, I have tried to implement the Dependency Inversion Principle (DIP) by using a Factory class which is solely responsible for creating all dependencies. The only "newing up" happening outside of the Factory is when the Main method instantiates the Factory itself.
+Additionally, I have tried to implement the Dependency Inversion Principle (DIP) by using a Factory class which is solely responsible for instantiating all dependencies. The only "newing up" happening outside of the Factory is when the Main method instantiates the Factory itself.
 
 
 I am happy and open to hear comments and critique from the community.
