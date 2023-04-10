@@ -10,10 +10,13 @@ namespace CoreLib
     public class StringProcessor : IStringProcessor
     {
         private readonly Regex _regex;
-        public StringProcessor(Regex regex)
+        
+        public StringProcessor(RegexProvider regexProvider)
         {
-            _regex = regex;
+            _regex = regexProvider.CreateRegex();
         }
+        
+        
         private string ConvertToWordsAndWhitespace(string text)
         {
             string textWithoutLineReturns = ReplaceLineReturns(text);
