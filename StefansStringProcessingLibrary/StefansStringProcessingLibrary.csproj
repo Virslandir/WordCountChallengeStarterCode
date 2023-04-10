@@ -48,7 +48,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringProcessor.cs" />
     <Compile Include="ConsoleViewerEngine.cs" />
-    <Compile Include="TxtFileWriter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
