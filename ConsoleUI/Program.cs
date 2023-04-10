@@ -46,7 +46,7 @@ is a valid word.",
             string text1 = Console.ReadLine(); ;
             string text2 = tests[1];
 
-            IViewerEngine consoleViewer = Factory.CreateViewerEngine();
+            IDataService consoleViewer = Factory.CreateViewerEngine();
 
 
 

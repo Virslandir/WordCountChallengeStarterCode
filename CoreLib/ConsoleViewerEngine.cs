@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreLib
 {
-    public class ConsoleViewerEngine : IViewerEngine
+    public class ConsoleViewerEngine : IDataService
     {
         private readonly IStringProcessor _processor;
 

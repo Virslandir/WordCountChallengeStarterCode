@@ -20,7 +20,7 @@ namespace CoreLib
         }
 
 
-        public static IViewerEngine CreateViewerEngine()
+        public static IDataService CreateViewerEngine()
         {
             return new ConsoleViewerEngine(CreateStringProcessor());
         }

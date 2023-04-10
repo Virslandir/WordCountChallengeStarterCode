@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Factory.cs" />
     <Compile Include="IStringProcessor.cs" />
-    <Compile Include="IViewerEngine.cs" />
+    <Compile Include="IDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringProcessor.cs" />
     <Compile Include="ConsoleViewerEngine.cs" />

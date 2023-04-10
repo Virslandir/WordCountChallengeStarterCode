@@ -1,6 +1,6 @@
 ﻿namespace CoreLib
 {
-    public interface IViewerEngine
+    public interface IDataService
     {
         void DisplayMostUsedCharacter(string text);
         void DisplayMostUsedWord(string text);
