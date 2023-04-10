@@ -9,15 +9,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            var regexProvider = new RegexProvider();
-            var stringProcessor = new StringProcessor(regexProvider);
-            var dataService = new DataService(stringProcessor);
-            
-            var testDataProvider = new TestDataProvider();
-            var userDataProvider = new UserDataProvider();
-            
-            var runnerTest = new Runner(dataService, testDataProvider);
-            var runnerUser = new Runner(dataService, userDataProvider);
+            var runnerFactory = new RunnerFactory();
+
+            var runnerTest = runnerFactory.CreateRunner(RunnerFactory.RunnerType.Test);
+            var runnerUser = runnerFactory.CreateRunner(RunnerFactory.RunnerType.User);
 
             Console.WriteLine($"\n --- Run test data --- \n");
             runnerTest.Run(1);
