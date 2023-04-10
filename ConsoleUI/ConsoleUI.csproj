@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StefansStringProcessingLibrary\StefansStringProcessingLibrary.csproj">
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj">
       <Project>{8721a17e-4c4b-48ab-a6e0-9937deb43cea}</Project>
-      <Name>StefansStringProcessingLibrary</Name>
+      <Name>CoreLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

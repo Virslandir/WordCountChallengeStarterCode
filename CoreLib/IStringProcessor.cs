@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace StefansStringProcessingLibrary
+namespace CoreLib
 {
     public interface IStringProcessor
     {

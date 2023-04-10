@@ -7,8 +7,8 @@
     <ProjectGuid>{8721A17E-4C4B-48AB-A6E0-9937DEB43CEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StefansStringProcessingLibrary</RootNamespace>
-    <AssemblyName>StefansStringProcessingLibrary</AssemblyName>
+    <RootNamespace>CoreLib</RootNamespace>
+    <AssemblyName>CoreLib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,4 +1,4 @@
-﻿namespace StefansStringProcessingLibrary
+﻿namespace CoreLib
 {
     public interface IViewerEngine
     {
