@@ -2,10 +2,10 @@
 {
     public interface IDataService
     {
-        void DisplayMostUsedCharacter(string text);
-        void DisplayMostUsedWord(string text);
-        void DisplayTotalCharacterCount(string text);
-        void DisplayTotalCharacterCountMinusLineReturnsAndWhitespaces(string text);
-        void DisplayTotalWordCount(string text);
+        string DisplayMostUsedCharacter(string text);
+        string DisplayMostUsedWord(string text);
+        string DisplayTotalCharacterCount(string text);
+        string DisplayTotalCharacterCountMinusLineReturnsAndWhitespaces(string text);
+        string DisplayTotalWordCount(string text);
     }
 }

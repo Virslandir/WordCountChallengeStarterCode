@@ -22,7 +22,7 @@ namespace CoreLib
 
         public static IDataService CreateViewerEngine()
         {
-            return new ConsoleViewerEngine(CreateStringProcessor());
+            return new DataService(CreateStringProcessor());
         }
     }
 }
